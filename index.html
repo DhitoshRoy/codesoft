@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio of Dhitosh Roy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- https://fontawesome.com/kits/1ae3f92d49/setup -->
+    <script src="https://kit.fontawesome.com/1ae3f92d49.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="#logo" class="logo">
+                <ul id="sidemenu">
+
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">service</a></li>
+                    <li> <a href="#">portfolio</a></li>
+                    <li> <a href="#">Contact</a></li>
+                    <i class="fa-solid fa-user-xmark" onclick="closeenu()"></i>
+                
+                </ul>
+
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <p>Web development</p>
+                <h1> Hi, This is <span>Dhitosh</span> <br> Roy from kolkata </h1>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- ------------------------About----------------------- -->
+
+    <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="images/#">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, ipsa autem. Nostrum,
+                         consequuntur facilis veritatis aspernatur incidunt dicta illum,
+                         corporis quibusdam sapiente ipsum quam. Consequuntur distinctio necessitatibus corporis iusto aut.
+                    </p>
+
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+
+                            <li><span>webdevlopment</span><br>worked webdevlopment</li>
+                            <li><span>webdevlopment</span><br>worked webdevlopment</li>
+                            <li><span>webdevlopment</span><br>worked webdevlopment</li>
+                           
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+
+                        <ul>
+
+                            <li><span>webdevlopment</span><br>worked webdevlopment</li>
+                            <li><span>webdevlopment</span><br>worked webdevlopment</li>
+                    
+                           
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+
+                        <ul>
+
+                            <li><span>webdevlopment</span><br>worked webdevlopment</li>
+                            <li><span>webdevlopment</span><br>worked webdevlopment</li>
+                           
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --------------------------------services--------------------------------- -->
+
+    <div id="service">
+
+
+        <div class="container">
+
+            <h1 class="sub-title">My service </h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate totam. 
+                        Exercitationem minima rem maxime natus 
+                        quos delectus soluta non impedit? Fuga aut 
+                        dignissimos voluptates repellat nesciunt aliquam magnam molestias.</p>
+
+                        <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <h2>web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate totam. 
+                        Exercitationem minima rem maxime natus 
+                        quos delectus soluta non impedit? Fuga aut 
+                        dignissimos voluptates repellat nesciunt aliquam magnam molestias.</p>
+                        
+                        <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --------------------------------------portfolio----------------------------------- -->
+
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title"> My work </h1>
+            <div class="worklist">
+
+                <div class="work">
+                    <img src="images/work1.jpg">
+                        <div class="layer">
+                            <h3>social media</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nemo sed 
+                                quaerat illum recusandae temporibus cupiditate
+                                deserunt voluptates voluptate alias! Ipsam at modi temporibus ducimus reiciendis rem, 
+                                impedit laudantium dignissimos.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>link din</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nemo sed 
+                            quaerat illum recusandae temporibus cupiditate
+                            deserunt voluptates voluptate alias! Ipsam at modi temporibus ducimus reiciendis rem, 
+                            impedit laudantium dignissimos.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            
+                </div>
+
+            </div>
+
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+
+    <!-- ------------------------------contact------------------------------------------ -->
+
+    <div id="contact">
+        
+        <div class="container">
+        <div class="row">
+
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>roydhitosh@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-9933713179</p>
+
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twittter/"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://youtube.com/"><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+
+                <a href="images/Dhitosh-Resume.pdf" Download class="btn btn-2">Download CV</a>
+
+            </div>
+            <div class="conact-right">
+
+                <form>
+
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email "required>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn-2">Submit</button>
+
+
+                </form>
+
+                <a href="#"></a>
+            </div>
+        </div>    
+        
+        </div>
+
+        <div class="copyright">
+
+            <p> copyright &#169 made by <i class="fa-solid fa-heart"></i> Dhitsh Roy</p>
+        </div>
+
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+
+        function opentab(tabname){
+
+            for(tablink of tablinks ) {
+
+                tablink.classList.remove("active-link")
+            }
+
+            
+            for(tabcontent of tabcontents ) {
+
+                tabcontent.classList.remove("active-tab")
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    
+
+    <script>
+
+        var sidemenu = doc.getElementById("sidemenu");
+        
+    </script>
+</body>
+</html>
