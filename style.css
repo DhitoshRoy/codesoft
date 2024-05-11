@@ -388,6 +388,7 @@ nav ul li a:hover::after{
 .btn .btn-2{
     display: inline-block;
     background: #ff004f;
+   
 }
 .contact-right form{
 
@@ -408,7 +409,6 @@ form input, form textarea{
 
 }
 form btn-2{
-
     padding: 14px 16px;
     font-size: 18px;
     margin-top: 20px;
@@ -427,7 +427,7 @@ form btn-2{
 .copyright i{
 
     color: #ff004f;
-}
+}x
 
 /* -------------------------------------------CSS for responsiveness------------------------- */
 
